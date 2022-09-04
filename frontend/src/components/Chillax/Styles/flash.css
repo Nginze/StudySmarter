@@ -1,0 +1,39 @@
+.flash-div{
+    width:900px;
+    margin:2rem auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    height: 100%;
+  }
+  
+  
+  .flash-button{
+    width:280px;
+    padding:15px;
+    font-size: 17px;
+    height:14rem;
+    border: none;
+    outline:none;
+    cursor: pointer;
+    font-weight:500;
+    border-radius:8px;
+    background-color:#fffbfb;
+    color:#636262;
+    box-shadow: 0 8px 16px 0 rgba(95, 90, 90, 0.3);
+  
+  }
+  
+  .flash-button:hover{
+      box-shadow: 0 8px 16px 0 rgba(20, 20, 20, 0.3);
+  }
+
+  .author{
+      margin-top:4rem;
+      display: flex;
+  }
+
+  .author > small{
+      font-size:17px;
+  }

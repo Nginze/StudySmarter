@@ -1,0 +1,29 @@
+.color-picker{
+    border: none;
+    margin-left: 0.6rem;
+    border-radius: 9px;
+    border-radius: 50%;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 25px;
+    height: 28px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.color-picker::-webkit-color-swatch{
+    border: none;
+    border-radius: 5px;
+}
+.color-select{
+    margin-top: 1.4rem;
+    font-size: 1.5ch;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.create-community{
+    margin-left: 1rem;
+    padding: 12px;
+}

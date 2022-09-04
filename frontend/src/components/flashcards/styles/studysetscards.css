@@ -1,0 +1,40 @@
+.studysets-card-container{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    gap:2rem;
+    /* background-color:aliceblue; */
+    padding-left:10rem;
+    padding-right:10rem;
+    padding-top:0.2rem;
+    height:100%;
+    
+}
+
+
+.studysets-card:hover{ 
+    box-shadow: rgb(245, 245, 245) 0.5rem 0.5rem;
+}
+
+.studysets-card{
+    color:rgb(6, 6, 22);
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color:white;
+    display: flex;
+    padding:2rem;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    height: 8rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+
+
+.studysets-card .studyset-card-front{
+
+}

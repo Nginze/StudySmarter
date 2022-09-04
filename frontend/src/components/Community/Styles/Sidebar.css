@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+button{
+    cursor: pointer;
+}
+:root{
+    --post-shadow:rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    --upvotes-section: #f8f9fa;
+    --element-base: white;
+}
+.sidebar-container{
+    min-height: 100vh;
+    min-width: 310px;
+    max-width: 310px;
+    display: flex;
+    flex-direction: column;
+    top: -45.5vw;
+}
+
+.action-block,
+.recent-posts,
+.footer
+{
+    max-width: 100%;
+    height: 292px;
+    box-shadow: var(--post-shadow);
+    margin-bottom: 1.5rem;
+    background-color: var(--element-base);
+    border-radius: 4px;
+}
+
+.action-block{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 292px;
+    max-height: 292px;
+   
+}
+.block-header{
+    width: 100%;
+    height: 40px;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+
+}
+
+.action-block button{
+    width: 90%;
+    align-self: center;
+    padding: 1rem 1.3rem;
+    border-radius: 8px;
+    border: none;
+    position: absolute;
+    bottom: 5%;
+    background-color: #0279d1;
+    color: white;
+    
+}
+.action-block .description{
+    width: 100%;
+    align-self: center;
+    max-width: 95%;
+    text-align: justify;
+}
+
+
+
+.member-stats-container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 0.9rem;
+   width: 100%;
+   justify-content: flex-end;
+}
+.recent-posts{
+    height: auto;
+}
+.recent-post{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.post-img-small{
+    width: 35px;
+    height: 35px;
+    margin-right: 0.8rem;
+   
+}
+
+.post-img-small img{
+    width: 100%;
+   
+}
+
+.post-stats {
+    font-size: 1.2ch;
+}
+.footer{
+    position: relative;
+}
+.footer p{
+    position: absolute;
+    bottom : 2%;
+    font-size: 1.5ch;
+    margin-left: 1rem;
+}
+.footer-links{
+    display: flex;
+    padding: 1rem;
+    font-size: 1.7ch;
+}
+.footer .col-1{
+    display: flex;
+    flex-direction: column;
+    margin-right: 3rem;
+}
+.footer .col-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.recent {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.679);
+}

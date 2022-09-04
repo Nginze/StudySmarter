@@ -1,0 +1,12 @@
+:root{
+    --community-background: #dae0e6;
+}
+#community{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: var(--community-background);
+    padding-top: 2rem;
+}
+
